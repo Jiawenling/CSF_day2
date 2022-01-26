@@ -1,0 +1,11 @@
+<h2>Please select</h2>
+<table>
+  <tr *ngFor="let fruit of items">
+    <td class = "trows">
+      <img src="{{fruit.image}}" alt="{{fruit.name}}">
+      {{fruit.name}}
+      <button (click)="addItem(fruit)">Add</button>
+    </td>
+  </tr>
+
+</table>

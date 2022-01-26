@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  border: 3px black solid;
+  justify-content: space-around;
+  padding: 3em;
+  height: 90vh;
+  margin-top: 2em;
+}
+
+img{
+  width: 1em;
+  height: 1em;
+}
+
+.cart{
+  border: 3px black solid;
+  padding: 1em;
+}
+
+
