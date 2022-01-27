@@ -3,7 +3,7 @@
   <tr *ngFor="let fruit of items">
     <td class = "trows">
       <img src="{{fruit.image}}" alt="{{fruit.name}}">
-      {{fruit.name}}
+      <span>{{fruit.name}}</span>
       <button (click)="addItem(fruit)">Add</button>
     </td>
   </tr>
